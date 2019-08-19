@@ -1,0 +1,35 @@
+{
+  "name": "tslint-to-eslint-sample",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "convert": "tslint-to-eslint-config --config .eslintrc.json --tslint tslint.json",
+    "tslint": "tslint index.ts",
+    "eslint": "eslint index.ts --config ./.eslintrc.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shisama/tslint-to-eslint-sample.git"
+  },
+  "keywords": [
+    "tslint",
+    "eslint",
+    "typescript-eslint"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/shisama/tslint-to-eslint-sample/issues"
+  },
+  "homepage": "https://github.com/shisama/tslint-to-eslint-sample#readme",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^2.0.0",
+    "@typescript-eslint/eslint-plugin-tslint": "^2.0.0",
+    "@typescript-eslint/parser": "^2.0.0",
+    "eslint": "^6.2.0",
+    "tslint": "^5.18.0",
+    "tslint-to-eslint-config": "^0.2.4",
+    "typescript": "^3.5.3"
+  }
+}

@@ -1,0 +1,10 @@
+deprecation does not yet have an ESLint equivalent.
+no-duplicate-imports does not yet have an ESLint equivalent.
+no-duplicate-variable does not yet have an ESLint equivalent.
+no-floating-promises does not yet have an ESLint equivalent.
+no-implicit-dependencies does not yet have an ESLint equivalent.
+no-import-side-effect does not yet have an ESLint equivalent.
+no-shadowed-variable does not yet have an ESLint equivalent.
+no-void-expression does not yet have an ESLint equivalent.
+trailing-comma does not yet have an ESLint equivalent.
+triple-equals does not yet have an ESLint equivalent.
